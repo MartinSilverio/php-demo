@@ -9,7 +9,12 @@
 <body>
 
 <?php 
-
+  echo pow(2,7);
+  echo rand(1,1000);
+  echo sqrt(100);
+  echo ceil(4.2);
+  echo floor(4.2);
+  echo round(4.4);
 
 ?>
   

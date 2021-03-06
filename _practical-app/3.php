@@ -25,6 +25,35 @@
 
  */
 
+ $iDontLovePHP = false;
+ $iLovePHP = true;
+
+
+ if($iDontLovePHP) {
+	 echo 'i don\'t love php <br>';
+ } else if($iLovePHP) {
+	echo 'i love php <br>';
+ }
+
+ $forCounter = 10;
+
+ for($counter = 0; $counter < $forCounter; $counter++) {
+	 echo $counter . '<br>';
+ }
+
+ $name = 'Martin';
+ switch($name) {
+		case 'Jerry':
+			echo 'Hello Jerry';
+			break;
+		case 'Martin':
+			echo 'Hello Martin';	
+			break;
+		default:
+			echo 'Not a name';
+
+ }
+
 	
 ?>
 

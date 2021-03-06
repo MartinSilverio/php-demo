@@ -9,7 +9,14 @@
 <body>
 
 <?php 
+  if(3 < 10) {
+    echo "three less than ten";
+  } elseif(4 < 5) {
+    echo "of course 4 less than five";
 
+  } else {
+    echo "it is not";
+  }
 
 ?>
   

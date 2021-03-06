@@ -10,6 +10,19 @@
 
 <?php 
 
+  function greeting($message) {
+    echo $message;
+  }
+
+  greeting('Hello');
+
+  function calculate($number1, $number2) {
+    $sum = $number1 + $number2;
+
+    echo $sum;
+  }
+
+  calculate(2343, 23);
 
 ?>
   

@@ -10,6 +10,21 @@
 
 <?php 
 
+  function say_Something() {
+    echo 'Hello student';
+  }
+
+  function calculate() {
+    echo 345 + 345;
+  }
+
+  function init() {
+    say_Something();
+    echo '<br>';
+    calculate();
+  }
+
+  init();
 
 ?>
   

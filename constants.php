@@ -9,7 +9,15 @@
 <body>
 
 <?php 
+  $number = 10;
+  echo $number;
 
+  define('NAME', 1000);
+
+  echo NAME;
+
+  const CHEESE = 'cheese';
+  echo CHEESE;
 
 ?>
   
